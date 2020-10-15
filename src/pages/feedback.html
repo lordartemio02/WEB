@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../index.scss"/>
+    <link rel="stylesheet" href="../styles/feedback.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <div class="navigation">
+          <a class="navigation__link" href="../index.html">Home</a>
+          <a class="navigation__link" href="./historycity.html">Historycity</a>
+          <a class="navigation__link" href="./сityinfrastructure.html">Infrastructure</a>
+          <a class="navigation__link" href="./culture.html">Culture and art</a>
+          <a class="navigation__link" href="#">Feedback</a>
+        </div>
+    </div>
+</section>
+<!-- emmet -->
+<!-- section.feedbackform>div.container>form>label+input+label+input+label+select>option*3^label+textarea+input -->
+<section class="feedbackform">
+    <div class="container">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Russia</option>
+            <option value="canada">Ukrain</option>
+            <option value="usa">DPR</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+
+.geografy{
+    &__header{
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &__item{
+        &--text{
+            margin-bottom: 15px;
+            font-size: large;
+        }
+    }
+}
+.infoCity{
+    &__timeTable{
+        margin: 0 auto;
+        position: relative;
+        &--header{
+            margin: 30px;
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+        }
+        &--inside{
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+
+.infoCity{
+
+    &__header{
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+    font-weight: bold;
+    }
+
+    &__item{
+        
+        &--info{
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            padding: 40px;
+
+            &__header{
+                font-size: large;
+                padding-bottom: 30px;
+            }
+        }
+    }
+    &__body{
+        margin: 30px;
+        position: relative;
+        
+        &--text{
+            font-size: medium;
+        }
+    }
+    
+}
+

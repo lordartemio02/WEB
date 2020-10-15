@@ -1,0 +1,946 @@
+body {
+  background: #72cde0;
+}
+#mountains1 {
+  width: 0;
+  height: 0;
+  border-left: 400px solid transparent;
+  border-right: 390px solid transparent;
+  border-bottom: 550px solid #1e503a;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#mountains2 {
+  width: 0;
+  height: 0;
+  border-left: 530px solid transparent;
+  border-right: 530px solid transparent;
+  border-bottom: 500px solid #358040;
+  position: absolute;
+  left: 240px;
+  z-index: 1;
+}
+
+#mountains3 {
+  width: 0;
+  height: 0;
+  border-left: 390px solid transparent;
+  border-right: 390px solid transparent;
+  border-bottom: 450px solid #28684b;
+  position: absolute;
+  left: 650px;
+  top: 130px;
+}
+
+#snow1 {
+  width: 1540px;
+  height: 1200px;
+}
+#snow1::before {
+  content: "";
+  position: absolute;
+  top: 370px;
+  width: 1740px;
+  height: 1200px;
+  background: #d4dae9;
+  border-radius: 1000px 1000px 1000px 1000px;
+  z-index: 2;
+}
+
+/* Человек первый */
+
+#peoplehead1 {
+  width: 150px;
+  height: 100px;
+  background: #fcd2a8;
+  border-radius: 150px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 315px;
+  left: 340px;
+}
+#peoplehead12 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 370px;
+}
+#peoplehead13 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(-38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 417px;
+}
+#peoplehead14 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 428px;
+}
+#peoplehead15 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 398px;
+}
+/* борода */
+#peoplehead16 {
+  width: 70px;
+  height: 20px;
+  border-radius: 30%;
+  border-top: 1px solid rgb(22, 22, 22);
+  transform: rotate(180deg);
+  position: absolute;
+  top: 390px;
+  left: 380px;
+  z-index: 9;
+}
+#peoplehead17 {
+  width: 8em;
+  height: 3em;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border-bottom: 7px solid #f3e60c;
+  background: #47c3b8;
+  position: absolute;
+  top: 283px;
+  left: 351px;
+  z-index: 9;
+}
+#peoplehead18 {
+  width: 40px;
+  height: 30px;
+  background: #f3e60c;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 10;
+  top: 270px;
+  left: 393px;
+}
+/* рот */
+#peoplehead19 {
+  width: 30px;
+  height: 20px;
+  border-radius: 30%;
+  border-top: 1px solid #000;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 380px;
+  left: 400px;
+  z-index: 9;
+}
+#peoplebody1 {
+  width: 200px;
+  height: 120px;
+  background: #c30f32;
+  border-radius: 170px 170px 100px 70px;
+  transform-origin: 0 100%;
+  position: absolute;
+  top: 370px;
+  left: 317px;
+  z-index: 8;
+}
+#peoplebody12 {
+  height: 0;
+  width: 130px;
+  border-bottom: 100px solid #623714;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 322px;
+  top: 410px;
+  z-index: 7;
+}
+#peoplebody13 {
+  height: 5px;
+  width: 132px;
+  background: black;
+  border-radius: 100px 100px 10px 10px;
+  left: 351px;
+  top: 510px;
+  position: absolute;
+  z-index: 8;
+}
+#peoplebody14 {
+  width: 40px;
+  height: 30px;
+  background: #f3e60c;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 410px;
+  left: 310px;
+}
+#peoplebody15 {
+  width: 40px;
+  height: 30px;
+  background: #f3e60c;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 405px;
+  left: 485px;
+}
+#peoplebody16 {
+  width: 15px;
+  height: 30px;
+  background: #f3e60c;
+  border-radius: 20px/30px;
+  position: absolute;
+  z-index: 9;
+  top: 410px;
+  left: 485px;
+}
+#peoplebody17 {
+  width: 30px;
+  height: 15px;
+  background: #f3e60c;
+  border-radius: 30px/30px;
+  position: absolute;
+  z-index: 9;
+  top: 419px;
+  left: 328px;
+}
+/* полоска на одежде */
+#peoplebody18 {
+  height: 150px;
+  width: 2px;
+  background: black;
+  left: 415px;
+  top: 340px;
+  position: absolute;
+  z-index: 8;
+}
+#peoplebody19 {
+  height: 5px;
+  width: 5px;
+  background: black;
+  border-radius: 5px/5px;
+  left: 400px;
+  top: 430px;
+  position: absolute;
+  z-index: 9;
+}
+#peoplebody20 {
+  height: 5px;
+  width: 5px;
+  background: black;
+  border-radius: 5px/5px;
+  left: 400px;
+  top: 450px;
+  position: absolute;
+  z-index: 9;
+}
+
+/* человек2  */
+
+#peoplehead2 {
+  width: 130px;
+  height: 120px;
+  background: #fcd2a8;
+  border-radius: 130px/120px;
+  position: absolute;
+  z-index: 9;
+  top: 310px;
+  left: 600px;
+}
+#peoplehead22 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 620px;
+}
+#peoplehead23 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(-38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 667px;
+}
+#peoplehead24 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 645px;
+}
+#peoplehead25 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 676px;
+}
+/* рот */
+#peoplehead26 {
+  width: 30px;
+  height: 20px;
+  border-radius: 30%;
+  border-top: 1px solid #000;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 384px;
+  left: 650px;
+  z-index: 10;
+}
+#peoplehead27 {
+  width: 97px;
+  height: 40px;
+  background-color: #048c26;
+  border-top: 16px solid #3bbd01;
+  border-left: 6px solid #3bbd01;
+  border-right: 6px solid #3bbd01;
+  border-radius: 5px;
+  position: absolute;
+  top: 278px;
+  left: 610px;
+  z-index: 10;
+}
+#peoplehead28 {
+  width: 65px;
+  height: 30px;
+  background: #3bbd01;
+  transform: rotate(288deg);
+  border-radius: 130px/60px;
+  position: absolute;
+  z-index: 10;
+  top: 330px;
+  left: 570px;
+}
+#peoplehead29 {
+  width: 65px;
+  height: 30px;
+  background: #3bbd01;
+  transform: rotate(-288deg);
+  border-radius: 130px/60px;
+  position: absolute;
+  z-index: 10;
+  top: 330px;
+  left: 694px;
+}
+#peoplebody2 {
+  width: 140px;
+  height: 100px;
+  background: #eb5405;
+  border-radius: 200px 200px 50px 50px;
+  transform-origin: 0 100%;
+  position: absolute;
+  top: 400px;
+  left: 595px;
+  z-index: 8;
+}
+#peoplebody22 {
+  width: 120px;
+  height: 120px;
+  background: #3bbd01;
+  border-radius: 130px/120px;
+  position: absolute;
+  z-index: 8;
+  top: 317px;
+  left: 605px;
+}
+#peoplebody23 {
+  height: 0;
+  width: 100px;
+  border-bottom: 50px solid #2d694d;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 595px;
+  top: 465px;
+  z-index: 7;
+}
+#peoplebody24 {
+  height: 3px;
+  width: 105px;
+  background: black;
+  border-radius: 100px 100px 10px 10px;
+  left: 612px;
+  top: 512px;
+  position: absolute;
+  z-index: 8;
+}
+#peoplebody25 {
+  width: 25px;
+  height: 25px;
+  background: #3bbd01;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 725px;
+}
+#peoplebody255 {
+  width: 10px;
+  height: 10px;
+  background: #3bbd01;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 475px;
+  left: 601px;
+}
+#peoplebody266 {
+  width: 10px;
+  height: 10px;
+  background: #3bbd01;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 475px;
+  left: 719px;
+}
+#peoplebody26 {
+  width: 25px;
+  height: 25px;
+  background: #3bbd01;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 580px;
+}
+#peoplebody27 {
+  height: 62px;
+  width: 2px;
+  background: black;
+  left: 665px;
+  top: 438px;
+  position: absolute;
+  z-index: 10;
+}
+#peoplebody28 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 612px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(209deg);
+  z-index: 10;
+}
+#peoplebody29 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 717px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(-209deg);
+  z-index: 10;
+}
+#peoplebody220 {
+  height: 25px;
+  width: 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 635px;
+  top: 450px;
+  z-index: 10;
+}
+#peoplebody2201 {
+  height: 17px;
+  width: 1px;
+  background: black;
+  left: 641px;
+  top: 450px;
+  position: absolute;
+  transform: rotate(-209deg);
+  z-index: 10;
+}
+#peoplebody22011 {
+  height: 17px;
+  width: 1px;
+  background: black;
+  left: 650px;
+  top: 450px;
+  position: absolute;
+  transform: rotate(209deg);
+  z-index: 10;
+}
+#peoplebody221 {
+  height: 25px;
+  width: 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 675px;
+  top: 450px;
+  z-index: 10;
+}
+#peoplebody2211 {
+  height: 17px;
+  width: 1px;
+  background: black;
+  left: 681px;
+  top: 450px;
+  position: absolute;
+  transform: rotate(-209deg);
+  z-index: 10;
+}
+#peoplebody22111 {
+  height: 17px;
+  width: 1px;
+  background: black;
+  left: 690px;
+  top: 450px;
+  position: absolute;
+  transform: rotate(209deg);
+  z-index: 10;
+}
+
+/* Человек3 */
+
+#peoplehead3 {
+  width: 130px;
+  height: 120px;
+  background: #fdd1ac;
+  border-radius: 130px/120px;
+  position: absolute;
+  z-index: 9;
+  top: 310px;
+  left: 820px;
+}
+#peoplehead32 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 840px;
+}
+#peoplehead33 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(-38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 887px;
+}
+#peoplehead34 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 865px;
+}
+#peoplehead35 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 898px;
+}
+/* рот */
+#peoplehead36 {
+  width: 30px;
+  height: 20px;
+  border-radius: 30%;
+  border-top: 1px solid #000;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 384px;
+  left: 870px;
+  z-index: 10;
+}
+/* шапка */
+#peoplehead37 {
+  width: 7em;
+  height: 2.5em;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border-bottom: 15px solid #c4082b;
+  background: #485b93;
+  position: absolute;
+  top: 282px;
+  left: 829px;
+  z-index: 9;
+}
+#peoplehead38 {
+  width: 30px;
+  height: 30px;
+  background: #c4082b;
+  border-radius: 100px/100px;
+  position: absolute;
+  z-index: 10;
+  top: 270px;
+  left: 870px;
+}
+/* тело */
+#peoplebody3 {
+  width: 140px;
+  height: 100px;
+  background: #8e5c45;
+  border-radius: 200px 200px 50px 50px;
+  transform-origin: 0 100%;
+  position: absolute;
+  top: 400px;
+  left: 815px;
+  z-index: 8;
+}
+#peoplebody32 {
+  width: 120px;
+  height: 120px;
+  background: #b6012c;
+  border-radius: 130px/120px;
+  position: absolute;
+  z-index: 8;
+  top: 317px;
+  left: 825px;
+}
+#peoplebody33 {
+  height: 0;
+  width: 100px;
+  border-bottom: 50px solid #475b98;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 815px;
+  top: 465px;
+  z-index: 7;
+}
+#peoplebody34 {
+  height: 3px;
+  width: 105px;
+  background: black;
+  border-radius: 100px 100px 10px 10px;
+  left: 833px;
+  top: 512px;
+  position: absolute;
+  z-index: 8;
+}
+/* куртка, перчатки */
+#peoplebody35 {
+  width: 25px;
+  height: 25px;
+  background: #cc032d;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 945px;
+}
+#peoplebody355 {
+  width: 10px;
+  height: 10px;
+  background: #cc032d;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 10;
+  top: 475px;
+  left: 939px;
+}
+#peoplebody366 {
+  width: 10px;
+  height: 10px;
+  background: #cc032d;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 475px;
+  left: 820px;
+}
+#peoplebody36 {
+  width: 25px;
+  height: 25px;
+  background: #cc032d;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 800px;
+}
+#peoplebody37 {
+  height: 62px;
+  width: 2px;
+  background: black;
+  left: 885px;
+  top: 438px;
+  position: absolute;
+  z-index: 10;
+}
+#peoplebody38 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 832px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(209deg);
+  z-index: 10;
+}
+#peoplebody39 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 937px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(-209deg);
+  z-index: 10;
+}
+#peoplebody320 {
+  height: 5px;
+  width: 5px;
+  background: black;
+  border-radius: 5px/5px;
+  left: 870px;
+  top: 445px;
+  position: absolute;
+  z-index: 9;
+}
+#peoplebody321 {
+  height: 5px;
+  width: 5px;
+  background: black;
+  border-radius: 5px/5px;
+  left: 870px;
+  top: 460px;
+  position: absolute;
+  z-index: 9;
+}
+
+/* Человек4 */
+
+#peoplehead4 {
+  width: 130px;
+  height: 120px;
+  background: #f4d1a7;
+  border-radius: 130px/120px;
+  position: absolute;
+  z-index: 9;
+  top: 310px;
+  left: 1040px;
+}
+#peoplehead42 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 1060px;
+}
+#peoplehead43 {
+  width: 40px;
+  height: 50px;
+  background: #fdfdfd;
+  border-radius: 50px/60px;
+  transform: rotate(-38deg);
+  position: absolute;
+  z-index: 9;
+  top: 335px;
+  left: 1110px;
+}
+#peoplehead44 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 1085px;
+}
+#peoplehead45 {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px/5px;
+  position: absolute;
+  z-index: 9;
+  top: 357px;
+  left: 1120px;
+}
+/* капюшон */
+#peoplehead46 {
+  width: 58px;
+  height: 80px;
+  border-width: 25px;
+  border-style: solid;
+  border-color: #664011;
+  border-radius: 100% 100% 100% 100%;
+  position: absolute;
+  z-index: 9;
+  top: 300px;
+  left: 1050px;
+}
+#peoplehead47 {
+  width: 80px;
+  height: 80px;
+  border-width: 35px;
+  border-style: solid;
+  border-color: #f45d0e;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 1px;
+  position: absolute;
+  z-index: 11;
+  top: 290px;
+  left: 1028px;
+}
+#peoplehead48 {
+  width: 110px;
+  height: 93px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00000098;
+  border-radius: 100% 100% 100% 100%;
+  position: absolute;
+  z-index: 11;
+  top: 324px;
+  left: 1046px;
+}
+/* тело */
+#peoplebody4 {
+  width: 140px;
+  height: 100px;
+  background: #f45d0e;
+  border-radius: 200px 200px 50px 50px;
+  border-bottom: 1px solid black;
+  transform-origin: 0 100%;
+  position: absolute;
+  top: 400px;
+  left: 1035px;
+  z-index: 8;
+}
+/* ноги */
+#peoplebody43 {
+  height: 0;
+  width: 100px;
+  border-bottom: 50px solid #f45d0e;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 1035px;
+  top: 465px;
+  z-index: 7;
+}
+#peoplebody44 {
+  height: 3px;
+  width: 105px;
+  background: black;
+  border-radius: 100px 100px 10px 10px;
+  left: 1053px;
+  top: 512px;
+  position: absolute;
+  z-index: 8;
+}
+#peoplebody45 {
+  width: 25px;
+  height: 25px;
+  background: #664011;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 1025px;
+}
+#peoplebody455 {
+  width: 10px;
+  height: 10px;
+  background: #664011;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 10;
+  top: 475px;
+  left: 1045px;
+}
+#peoplebody466 {
+  width: 10px;
+  height: 10px;
+  background: #664011;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 475px;
+  left: 1154px;
+}
+#peoplebody46 {
+  width: 25px;
+  height: 25px;
+  background: #664011;
+  border-radius: 130px/100px;
+  position: absolute;
+  z-index: 9;
+  top: 465px;
+  left: 1160px;
+}
+#peoplebody47 {
+  height: 62px;
+  width: 2px;
+  background: black;
+  left: 1105px;
+  top: 438px;
+  position: absolute;
+  z-index: 10;
+}
+#peoplebody48 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 1056px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(209deg);
+  z-index: 10;
+}
+#peoplebody49 {
+  height: 30px;
+  width: 1px;
+  background: black;
+  left: 1153px;
+  top: 445px;
+  position: absolute;
+  transform: rotate(-209deg);
+  z-index: 10;
+}
